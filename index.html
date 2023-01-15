@@ -68,10 +68,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
             <li>
-              <a href="/license.html">License</a>
+              <a href="/license.html">DSPS Forms License</a>
             </li>
             <li>
-              <a href="/license_explanation.html">License Explanation</a>
+              <a href="/license_explanation.html">DSPS Forms License Explanation</a>
             </li>
         </ul> <!-- nav navbar-nav -->
 
@@ -80,11 +80,107 @@
   </div><!-- container-fluid -->
 </nav>
 
+<h3>Introduction</h3>
 
-<h3>Current Web App</h3>
+At Craft Software, we develop solutions for companies and organizations that solve their critical needs. Here are a few examples.
+
+<h4>LogSense</h4>
+
+As an example, we developed <a href="https://github.com/logsense/logsense"><b>Logsense</b> </a> to troubleshoot 
+non-trivial multi-server issues at the Fortune-1 company. While Log analytics is not new, dealing with 
+a specific type of hierarchical logs that enabled tracing a request through multiple internal servers, and to make
+sense of this in a high traffic environment was not a solved problem at the time. LogSense was extensively used 
+at the Fortune-1 company to troubleshoot issues, including bugs, performance bottlenecks, and security events.
+Things that used to take hours, days, and weeks to figure out took ~ half an hour to resolve.
+
+You can use it for scenarious such as the following:
+
 <ul>
-   <li> <a href="https://www.dspsforms.com" target="_blank">DSPS Forms</a>
+  <li>when you release new code;</li>
+  <li> when new capacity is added;</li>
+  <li> when seriously high traffic is expected;</li>
+  <li> when a serious problem is happening on your website;</li>
+  <li> when a suspected fraud has been perpetrated;</li>
+  <li> during performance testing -- you will identify the root cause for issues quickly;</li>
+  <li> during QA testing -- not only will your QA team quickly  identify the issues, it will help you communicate the issues more efficiently to your development team;</li>
+  <li> during development -- it will assist software engineers debug their systems, including debugging complex interactions with 3rd party systems.</li>
+  
 </ul>
+
+
+<h6> Example things you can do with LogSense</h6>
+
+<ul>
+  <li><b>Thread related calls.</b> 
+    Inspect the log for a given user session across multiple requests, including what happened at various backend servers. <br/>
+
+    Inspect the details of a specific user request, including database calls, search calls, and other backend calls, ordered in the correct logical sequence regardless of how it appeared in the logs. Connect various logs together from different backend and frontend servers using associative mapping.
+
+    <br/>
+    Essentially, handle hierarchies in your logs.
+  </li>
+
+
+
+<li><b>Exceptions</b>
+  Find all exceptions in your live server logs in the past 10 minutes.
+Constrain them by log source, data center, specific set of machines, etc.
+Skip those that you already know about, or if they are not of current interest. Save these as your preference for future search.
+
+<br />
+If a NullPointerException (or some other exception) is caused by different things, find all unique issues with one click.
+
+</li>
+
+<li><b>High Benches</b>
+  Inspect the histogram if time taken by various end-to-end calls or subsystems within -- e.g., in 100msec buckets.
+Drill down this histogram for higher benches and inspect the corresponding logs.
+ </li>
+
+
+ <li><b>Inspect specific subsystems</b>
+Find all calls to a caching layer or a data layer. Constrain it by end-to-end calls that take longer. Drill down for details.
+
+<li><b>Inspect potential fraud</b>
+If a customer is logged on over concurrent user sessions from different browser types, are they trying to game your system? Have they found a vulnerability in your caching code, perhaps? You can zoom into these sessions, with data from your various backend servers, with just a few clicks.
+</li>
+
+<li><b>Compare performance over time as your code evolves</b>
+
+Generate statistical data on the number of sql calls for each url. Compare these over time as your code evolves so you know when and if there are additional sql calls.
+
+<br/>
+Compare different server instances. Apply machine learning to automatically identify anomalies, and inspect them further with search. For example, a patch may have been applied to a subset of servers, or a license may have  expired.
+
+</li>
+
+</ul>
+
+<h4>DSPS Forms</h4>
+Another example solution we offer is <a href=""https://www.dspsforms.com"><b>DSPS Forms.</b> </a> 
+DSPS stands for Disabled Students Programs and Services. 
+Federal law requires schools to provide accommodations for disabled students. 
+Schools typically have dedicated DSPS departments to address this need. 
+DSPS departments have a number of processes that can be streamlined with technology. 
+We provided an implementation of some of these processes. One solution was developed in 2018. 
+A second, more comprehensive workflow for DSPS Advising was deployed during the pandemic (2020).
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=uBuMocQUaj0">Video demo/overview of the Advising solution</a></li>
+
+  <li><a href="https://www.dspsforms.com/advising-forms/">Quick summary of features</a></li>
+  
+  <li><a href="https://github.com/dspsforms/dspsAdvisingFlow">Source code (Angular/Ionic, Node, MongoDB, NodeMailer, etc.).</a></li>
+  
+  <li><a href="https://github.com/dspsforms/dspsForms">Source code for the first solution</a></li>
+  
+  <li><a href="https://github.com/dspsforms/dspsForms/blob/master/STUDENT_INITIATED_FORMS.md">Description</a></li>
+</ul>
+
+
+<h3>Mobile Apps</h3>
+<ul>Coming soon...</ul>
+
 
 <h3>Earlier Web Apps</h3>
 <ul>
@@ -94,8 +190,7 @@
 
 <ul>
    <li>Telephone: 408-622-9498</li> 
-   <li>Email: craftsoftwareinc at gmail dot com</li> 
-   <li>Twitter: <a href="https://www.twitter.com/@Comparapoll"  target="_blank">@Comparapoll</a></li>
+   <li>Email: info at thecraftsoftware dot com</li> 
 </ul>
 
 
